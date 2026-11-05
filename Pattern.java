@@ -42,15 +42,40 @@ public class Pattern{
     }
 
     public static void odds(int start){
-        String displayNum = "";
-        for (int i = start; start >= 1; i -= 2){
+            
+        String displayNum = start + "";
+        for (int i = start; i >= 1; i -= 2){
             displayNum = "";
-            for (int num = start; num >= i; num++){
-                displayNum += num;
+            for (int num = i; num > 0; num--){
+                displayNum += i;
             }
             System.out.println(displayNum);
         }
 
     }
+
+    public static void eo(int maxE){
+        String o = "O";
+        String e = "E";
+
+        if (maxE % 2 == 0){
+
+            for (int i = 0; i < maxE; i++){
+
+                
+            }
+
+        }
+        else {
+
+
+        }
+
+
+    }
     
+    public static void pyramid(int rows){
+
+
+    }
 }
